@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Quicksand', sans-serif;
+  --font-boldonse: 'Boldonse', sans-serif;
+  --font-figtree: 'Figtree', sans-serif;
+  --font-quicksand: 'Quicksand', sans-serif;
+  
+  --color-day-bg: #0f172a; /* Slate 900 */
+  --color-day-text: #f8fafc; /* Slate 50 */
+  --color-day-primary: #3b82f6; /* Blue 500 */
+  
+  --color-night-bg: #fdfdfd; /* Off-white */
+  --color-night-text: #0f172a; /* Slate 900 */
+  --color-night-primary: #2563eb; /* Blue 600 */
+}
+
+@layer base {
+  body {
+    background-color: var(--color-day-bg);
+    color: var(--color-day-text);
+    font-family: var(--font-quicksand);
+    transition: background-color 0.5s cubic-bezier(0.4, 0, 0.2, 1), color 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .dark body {
+    background-color: var(--color-night-bg);
+    color: var(--color-night-text);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-figtree);
+  }
+}
+
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fade-in-up 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.dark .glass {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(0, 0, 0, 0.03);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.04);
+}
+
+input::placeholder {
+  opacity: 0.4;
+}

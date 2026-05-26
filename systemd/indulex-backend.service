@@ -1,0 +1,16 @@
+[Unit]
+Description=InduLex Backend Service
+After=network.target mongod-indulex.service
+
+[Service]
+User=agustin
+Group=agustin
+WorkingDirectory=/mnt/unidad_local/Proyectos/Web's/React - FullStack/InduLex/backend
+ExecStart=/home/agustin/.config/nvm/versions/node/v20.20.1/bin/node app.js
+Restart=always
+RestartSec=5
+Environment=NODE_ENV=production
+Environment=PORT=5000
+
+[Install]
+WantedBy=multi-user.target

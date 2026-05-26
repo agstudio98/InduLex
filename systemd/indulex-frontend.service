@@ -1,0 +1,14 @@
+[Unit]
+Description=InduLex Frontend Service
+After=network.target indulex-backend.service
+
+[Service]
+User=agustin
+Group=agustin
+WorkingDirectory=/mnt/unidad_local/Proyectos/Web's/React - FullStack/InduLex/frontend/indulex
+ExecStart=/home/agustin/.config/nvm/versions/node/v20.20.1/bin/pnpm preview --port 5173 --host
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

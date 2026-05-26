@@ -1,0 +1,14 @@
+[Unit]
+Description=MongoDB Database Server for InduLex
+After=network.target
+
+[Service]
+User=agustin
+Group=agustin
+ExecStart=/usr/bin/mongod --config "/mnt/externo_ext4/Proyectos/Web's/React - FullStack/InduLex/backend/mongod.conf"
+RuntimeDirectory=mongodb
+Restart=always
+SyslogIdentifier=indulex-mongodb
+
+[Install]
+WantedBy=multi-user.target
