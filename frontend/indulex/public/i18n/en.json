@@ -1,0 +1,166 @@
+{
+  "NAVBAR": {
+    "CATALOG": "Catalog",
+    "LOGIN": "Login"
+  },
+  "COMMON": {
+    "CLOSE": "Close"
+  },
+  "HOME": {
+    "MAIN_SLOGAN": "Redefining Urban Style with Vanguard and Elegance.",
+    "WHO_TITLE": "Our Essence",
+    "WHO_DESC": "InduLex transcends the conventional in urban and sports apparel. We fuse textile engineering with bold design to offer garments that define an era.",
+    "SLOGANS": "Innovation, Comfort and Attitude in Every Piece.",
+    "SLOGANS_SPEED": "High Speed",
+    "SLOGANS_QUALITY": "Maximum Quality",
+    "SLOGANS_STYLE": "Unique Style",
+    "SLOGANS_DESC": "Elevating textile industry standards with constant innovation.",
+    "CARROUSEL_TITLE": "New Collection",
+    "CARROUSEL_YEAR": "2026",
+    "CARROUSEL_DESC": "Discover the perfect fusion between textile technology and vanguard urban design.",
+    "CARROUSEL_BTN": "Explore Now",
+    "TIMELINE": "Our Evolution",
+    "TIMELINE_SUBTITLE": "Evolution",
+    "TIMELINE_STEP1": "Founding in Buenos Aires",
+    "TIMELINE_STEP2": "Expansion to all Latin America",
+    "TIMELINE_STEP3": "Launch of footwear line",
+    "TIMELINE_STEP4": "Consolidation as #1 E-commerce",
+    "TOP_TITLE": "Featured Collection",
+    "EVENTS_TITLE": "Exclusive Events & Experiences",
+    "EVENTS_SUBTITLE": "Calendar",
+    "EVENTS_EVENT1_TITLE": "Winter Sale 2026",
+    "EVENTS_EVENT1_DESC": "Next July 15th",
+    "EVENTS_EVENT1_LONG_DESC": "Get ready for our biggest sale of the year. Up to 50% off on all winter collections, including limited edition hoodies and technical jackets. Join us online and in-store starting July 15th.",
+    "EVENTS_EVENT2_TITLE": "Pop-up Store Event",
+    "EVENTS_EVENT2_DESC": "Live DJ & Discounts",
+    "EVENTS_EVENT2_LONG_DESC": "Experience the vibe at our exclusive Pop-up Store in Palermo Soho. Enjoy a live set by DJ 'Vanguard', exclusive preview of the 'Neon Urban' drop, and a 20% flat discount for attendees.",
+    "EVENTS_EVENT3_TITLE": "VIP Access",
+    "EVENTS_EVENT3_DESC": "Subscribers only",
+    "EVENTS_EVENT3_LONG_DESC": "Unlock the ultimate InduLex experience. VIP members get 48-hour early access to all new collections, free worldwide shipping with no minimum spend, and invitations to private styling sessions.",
+    "EVENTS_MORE_INFO": "More information →",
+    "PAYS_TITLE": "Secure Payments & Benefits",
+    "PAYS_3INSTALLMENTS": "3 Interest-Free Installments",
+    "PAYS_FREESHIPPING": "Free Shipping > $100",
+    "PAYS_EASYRETURN": "Easy 30-day Returns"
+  },
+  "CATALOG": {
+    "MAIN_TITLE": "Product Catalog",
+    "FILTER": "Filter by",
+    "CONFIRM_BUY": "Confirm Order and Payment",
+    "NO_PRODUCTS": "No products available.",
+    "PAGINATION_NEXT": "Next",
+    "PAGINATION_PREV": "Previous",
+    "SEARCH_PLACEHOLDER": "Search products...",
+    "CATEGORY_ALL": "All Categories",
+    "CATEGORY_HOODIES": "Hoodies",
+    "CATEGORY_TSHIRTS": "T-Shirts",
+    "CATEGORY_JACKETS": "Jackets",
+    "CATEGORY_PANTS": "Pants",
+    "CATEGORY_SHOES": "Shoes",
+    "CATEGORY_ACCESSORIES": "Accessories",
+    "PRODUCTS": {
+      "HOODIE_URBAN": "Urban Oversize Hoodie",
+      "TSHIRT_MINIMAL": "Minimal Cotton T-Shirt",
+      "JACKET_TECH": "Tech Windbreaker Jacket",
+      "PANTS_CARGO": "Street Cargo Pants",
+      "SHOES_RUNNING": "Pro Running Shoes",
+      "CAP_CURVED": "Curved Brim Cap",
+      "SHORTS_FLEX": "Flex Sport Shorts",
+      "TSHIRT_TRAINING": "Training T-Shirt",
+      "HOODIE_ESSENTIAL": "Essential Hoodie",
+      "TSHIRT_VINTAGE": "Vintage Look T-Shirt",
+      "JACKET_DENIM": "Classic Denim Jacket",
+      "PANTS_JOGGER": "Soft Sport Jogger"
+    }
+  },
+  "SUPPORT": {
+    "TITLE": "Technical Support",
+    "CHAT": "Interactive Assistant",
+    "AGENT_VIRTUAL": "InduLex Support",
+    "ONLINE": "Online",
+    "BOT_WELCOME": "Hi, I'm your InduLex assistant. Which topic would you like to receive technical information about?",
+    "CATEGORIES": {
+      "ORDERS": "Order Management",
+      "PAYMENTS": "Payment Methods",
+      "PRODUCTS": "Garment Care",
+      "SHIPPING": "Delivery Times",
+      "OTHER": "Other Inquiries"
+    },
+    "DIALOGUES": {
+      "ORDERS": "To track your order, access 'My Orders' in your profile. We process shipments in less than 24 business hours after confirming the purchase.",
+      "PAYMENTS": "We operate with 256-bit SSL encryption. You can pay with any bank card or Mercado Pago balance with no extra charges.",
+      "PRODUCTS": "Our Tech-Fiber fabrics require cold wash and shade drying to maintain elasticity and original color for years.",
+      "SHIPPING": "Priority shipping arrives in 48 hours to CABA and GBA. For the rest of the country, the timeframe is 3 to 5 days via premium logistics.",
+      "OTHER": "If your doubt is specific, our human team is available Monday to Friday from 9 AM to 6 PM to provide personalized attention."
+    }
+  },
+  "USER": {
+    "LOGIN_TITLE": "Access",
+    "REGISTER_TITLE": "Create Account",
+    "NAME_LABEL": "Full Name",
+    "EMAIL_LABEL": "Email",
+    "PASSWORD_LABEL": "Password",
+    "NO_ACCOUNT": "Don't have an account? Register",
+    "ALREADY_ACCOUNT": "Already have an account? Login",
+    "REGISTER_BTN": "Register",
+    "MAINTENANCE": "Connection not available, under maintenance.",
+    "SUCCESS_REG": "Account created successfully!",
+    "ERROR_REG": "Registration error. Please try again.",
+    "VALIDATION": {
+      "INVALID_EMAIL": "Please enter a valid email address.",
+      "PASS_LENGTH": "Password must be between 7 and 12 characters.",
+      "PASS_UPPER": "Missing an uppercase letter.",
+      "PASS_NUMBER": "Missing a number.",
+      "PASS_SPECIAL": "Missing a special character.",
+      "STRENGTH_WEAK": "Weak",
+      "STRENGTH_FAIR": "Fair",
+      "STRENGTH_STRONG": "Strong"
+    }
+  },
+  "GESTOR": {
+    "TITLE": "Account Management",
+    "LOGOUT": "Logout",
+    "LOGOUT_MSG": "Logged out successfully.",
+    "TABS": {
+      "INFO": "Information",
+      "SECURITY": "Security",
+      "PAYMENTS": "Payment Methods"
+    },
+    "INFO": {
+      "TITLE": "Personal Data",
+      "DESC": "Manage your basic information and account preferences.",
+      "NAME": "Username",
+      "CITY": "City",
+      "ADDRESS": "Shipping Address",
+      "POSTAL": "Postal Code",
+      "SAVE": "Save Changes",
+      "SAVE_SUCCESS": "Data updated successfully."
+    },
+    "SECURITY": {
+      "TITLE": "Account Security",
+      "DESC": "Update your password to keep your account protected.",
+      "NEW_PASS": "New Password",
+      "REPEAT_PASS": "Repeat New Password",
+      "UPDATE_BTN": "Update Password",
+      "PASS_MISMATCH": "Passwords do not match.",
+      "SAVE_SUCCESS": "Password updated successfully."
+    },
+    "PAYMENTS": {
+      "TITLE": "Payment Methods",
+      "DESC": "Manage your linked cards and payment services.",
+      "ADD_BTN": "Add",
+      "NO_METHODS": "No saved payment methods."
+    },
+    "AVATAR": {
+      "CHANGE": "Change Avatar"
+    }
+  },
+  "FOOTER": {
+    "DESC": "Redefining urban style with vanguard textile technology and contemporary design.",
+    "NEW_COLLECTION": "New Collection",
+    "SIZE_GUIDE": "Size Guide",
+    "SUSTAINABILITY": "Sustainability",
+    "CREDITS": "Developed by Ag Studio's 2026",
+    "ABOUT": "About the page design"
+  }
+}

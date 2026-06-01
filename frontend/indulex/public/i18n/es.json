@@ -1,0 +1,173 @@
+{
+  "NAVBAR": {
+    "CATALOG": "Catálogo",
+    "LOGIN": "Iniciar Sesión"
+  },
+  "COMMON": {
+    "CLOSE": "Cerrar"
+  },
+  "HOME": {
+    "MAIN_SLOGAN": "Redefiniendo el Estilo Urbano con Vanguardia y Elegancia.",
+    "WHO_TITLE": "Nuestra Esencia",
+    "WHO_DESC": "InduLex trasciende lo convecional en indumentaria urbana y deportiva. Fusionamos ingeniería textil con un diseño audaz para ofrecer prendas que definen una era.",
+    "SLOGANS": "Innovación, Confort y Actitud en cada Prenda.",
+    "SLOGANS_SPEED": "Alta Velocidad",
+    "SLOGANS_QUALITY": "Máxima Calidad",
+    "SLOGANS_STYLE": "Estilo Único",
+    "SLOGANS_DESC": "Elevando los estándares de la industria textil con innovación constante.",
+    "CARROUSEL_TITLE": "Nueva Colección",
+    "CARROUSEL_YEAR": "2026",
+    "CARROUSEL_DESC": "Descubre la fusión perfecta entre tecnología textil y diseño urbano de vanguardia.",
+    "CARROUSEL_BTN": "Explorar Ahora",
+    "TIMELINE": "Nuestra Trayectoria",
+    "TIMELINE_SUBTITLE": "Evolución",
+    "TIMELINE_STEP1": "Fundación en Buenos Aires",
+    "TIMELINE_STEP2": "Expansión a toda Latinoamérica",
+    "TIMELINE_STEP3": "Lanzamiento de línea de calzado",
+    "TIMELINE_STEP4": "Consolidación como E-commerce #1",
+    "TOP_TITLE": "Colección Destacada",
+    "EVENTS_TITLE": "Eventos y Experiencias",
+    "EVENTS_SUBTITLE": "Calendario",
+    "EVENTS_EVENT1_TITLE": "Winter Sale 2026",
+    "EVENTS_EVENT1_DESC": "Próximo 15 de Julio",
+    "EVENTS_EVENT1_LONG_DESC": "Prepárate para nuestra mayor liquidación del año. Hasta 50% de descuento en todas las colecciones de invierno, incluyendo hoodies de edición limitada y camperas técnicas. Únete online y en tiendas desde el 15 de julio.",
+    "EVENTS_EVENT2_TITLE": "Pop-up Store Event",
+    "EVENTS_EVENT2_DESC": "DJ en vivo & Descuentos",
+    "EVENTS_EVENT2_LONG_DESC": "Vive la experiencia en nuestra exclusiva Pop-up Store en Palermo Soho. Disfruta de un set en vivo de DJ 'Vanguard', adelanto exclusivo del drop 'Neon Urban' y un 20% de descuento directo para asistentes.",
+    "EVENTS_EVENT3_TITLE": "VIP Access",
+    "EVENTS_EVENT3_DESC": "Solo para suscriptores",
+    "EVENTS_EVENT3_LONG_DESC": "Desbloquea la experiencia definitiva de InduLex. Los miembros VIP obtienen acceso anticipado de 48 horas a todas las nuevas colecciones, envío gratuito sin mínimo de compra e invitaciones a sesiones privadas de estilismo.",
+    "EVENTS_MORE_INFO": "Más información →",
+    "PAYS_TITLE": "Pagos Seguros y Beneficios",
+    "PAYS_3INSTALLMENTS": "3 Cuotas sin Interés",
+    "PAYS_FREESHIPPING": "Envío Gratis > $100",
+    "PAYS_EASYRETURN": "Cambio Fácil 30 días"
+  },
+  "CATALOG": {
+    "MAIN_TITLE": "Catálogo de Productos",
+    "FILTER": "Filtrar por",
+    "CONFIRM_BUY": "Confirmar Pedido y Pago",
+    "NO_PRODUCTS": "No hay productos disponibles.",
+    "PAGINATION_NEXT": "Siguiente",
+    "PAGINATION_PREV": "Anterior",
+    "SEARCH_PLACEHOLDER": "Buscar productos...",
+    "CATEGORY_ALL": "Todas las Categorías",
+    "CATEGORY_HOODIES": "Buzos",
+    "CATEGORY_TSHIRTS": "Remeras",
+    "CATEGORY_JACKETS": "Camperas",
+    "CATEGORY_PANTS": "Pantalones",
+    "CATEGORY_SHOES": "Calzado",
+    "CATEGORY_ACCESSORIES": "Accesorios",
+    "PRODUCTS": {
+      "HOODIE_URBAN": "Sudadera Oversize Urban",
+      "TSHIRT_MINIMAL": "Remera Algodón Minimal",
+      "JACKET_TECH": "Chaqueta Cortavientos Tech",
+      "PANTS_CARGO": "Pantalón Cargo Street",
+      "SHOES_RUNNING": "Zapatillas Running Pro",
+      "CAP_CURVED": "Gorra Visera Curva",
+      "SHORTS_FLEX": "Shorts Deportivos Flex",
+      "TSHIRT_TRAINING": "Camiseta Entrenamiento",
+      "HOODIE_ESSENTIAL": "Buzo Hoodie Essential",
+      "TSHIRT_VINTAGE": "Remera Vintage Look",
+      "JACKET_DENIM": "Chaqueta Denim Classic",
+      "PANTS_JOGGER": "Jogger Deportivo Soft"
+    }
+  },
+  "SUPPORT": {
+    "TITLE": "Soporte Técnico",
+    "HISTORY": "Historial de Consultas",
+    "CHAT": "Asistente Interactivo",
+    "AGENT_VIRTUAL": "Soporte InduLex",
+    "ONLINE": "En línea",
+    "NO_HISTORY": "No hay consultas previas.",
+    "TICKET_NUMBER": "ID Consulta",
+    "VIEW_DETAILS": "Ver más →",
+    "STATUS_OPEN": "Activa",
+    "STATUS_CLOSED": "Finalizada",
+    "LOGIN_REQUIRED": "Inicia sesión para guardar tu historial.",
+    "BOT_WELCOME": "Hola, soy tu asistente de InduLex. ¿Sobre qué tema deseas recibir información técnica?",
+    "CATEGORIES": {
+      "ORDERS": "Gestión de Pedidos",
+      "PAYMENTS": "Medios de Pago",
+      "PRODUCTS": "Cuidado de Prendas",
+      "SHIPPING": "Tiempos de Entrega",
+      "OTHER": "Otras Consultas"
+    },
+    "DIALOGUES": {
+      "ORDERS": "Para rastrear tu pedido, accede a 'Mis Pedidos' en tu perfil. Procesamos los despachos en menos de 24hs hábiles tras confirmar la compra.",
+      "PAYMENTS": "Operamos con encriptación SSL de 256 bits. Puedes abonar con cualquier tarjeta bancaria o saldo en Mercado Pago sin recargos.",
+      "PRODUCTS": "Nuestras telas Tech-Fiber requieren lavado en frío y secado a la sombra para mantener la elasticidad y el color original por años.",
+      "SHIPPING": "El envío Priority llega en 48hs a CABA y GBA. Para el resto del país, el plazo es de 3 a 5 días mediante logística premium.",
+      "OTHER": "Si tu duda es específica, nuestro equipo humano está disponible de Lunes a Viernes de 9 a 18hs para brindarte atención personalizada."
+    }
+  },
+  "USER": {
+    "LOGIN_TITLE": "Acceso",
+    "REGISTER_TITLE": "Crear Cuenta",
+    "NAME_LABEL": "Nombre Completo",
+    "EMAIL_LABEL": "Correo Electrónico",
+    "PASSWORD_LABEL": "Contraseña",
+    "NO_ACCOUNT": "¿No tienes cuenta? Regístrate",
+    "ALREADY_ACCOUNT": "¿Ya tienes cuenta? Inicia sesión",
+    "REGISTER_BTN": "Registrarse",
+    "MAINTENANCE": "Conexión no disponible, en mantenimiento.",
+    "SUCCESS_REG": "¡Cuenta creada con éxito!",
+    "ERROR_REG": "Error al registrarse. Inténtalo de nuevo.",
+    "VALIDATION": {
+      "INVALID_EMAIL": "Ingresa un correo electrónico válido.",
+      "PASS_LENGTH": "La contraseña debe tener entre 7 y 12 caracteres.",
+      "PASS_UPPER": "Falta una letra mayúscula.",
+      "PASS_NUMBER": "Falta un número.",
+      "PASS_SPECIAL": "Falta un signo especial.",
+      "STRENGTH_WEAK": "Insegura",
+      "STRENGTH_FAIR": "Regular",
+      "STRENGTH_STRONG": "Segura"
+    }
+  },
+  "GESTOR": {
+    "TITLE": "Gestión de Cuenta",
+    "LOGOUT": "Cerrar Sesión",
+    "LOGOUT_MSG": "Sesión cerrada correctamente.",
+    "TABS": {
+      "INFO": "Información",
+      "SECURITY": "Seguridad",
+      "PAYMENTS": "Métodos de Pago"
+    },
+    "INFO": {
+      "TITLE": "Datos Personales",
+      "DESC": "Gestiona tu información básica y preferencias de cuenta.",
+      "NAME": "Nombre de Usuario",
+      "CITY": "Ciudad",
+      "ADDRESS": "Dirección de Envío",
+      "POSTAL": "Código Postal",
+      "SAVE": "Guardar Cambios",
+      "SAVE_SUCCESS": "Datos actualizados correctamente."
+    },
+    "SECURITY": {
+      "TITLE": "Seguridad de la Cuenta",
+      "DESC": "Actualiza tu contraseña para mantener tu cuenta protegida.",
+      "NEW_PASS": "Nueva Contraseña",
+      "REPEAT_PASS": "Repetir Nueva Contraseña",
+      "UPDATE_BTN": "Actualizar Contraseña",
+      "PASS_MISMATCH": "Las contraseñas no coinciden.",
+      "SAVE_SUCCESS": "Contraseña actualizada correctamente."
+    },
+    "PAYMENTS": {
+      "TITLE": "Métodos de Pago",
+      "DESC": "Administra tus tarjetas y servicios de pago vinculados.",
+      "ADD_BTN": "Agregar",
+      "NO_METHODS": "No hay métodos de pago guardados."
+    },
+    "AVATAR": {
+      "CHANGE": "Cambiar Avatar"
+    }
+  },
+  "FOOTER": {
+    "DESC": "Redefiniendo el estilo urbano con tecnología textil de vanguardia y diseño contemporáneo.",
+    "NEW_COLLECTION": "Nueva Colección",
+    "SIZE_GUIDE": "Guía de Talles",
+    "SUSTAINABILITY": "Sostenibilidad",
+    "CREDITS": "Desarrollado por Ag Studio's 2026",
+    "ABOUT": "Acerca del diseño de la página"
+  }
+}
