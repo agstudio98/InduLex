@@ -5,6 +5,7 @@ import { useAuth } from '../../context/AuthContext';
 import { useToast } from '../../context/ToastContext';
 import { useNavigate } from 'react-router-dom';
 import { GoogleLogin } from '@react-oauth/google';
+import API_BASE_URL from '../../api';
 
 /**
  * Auth Form Component
@@ -62,7 +63,7 @@ export const Form = () => {
     const endpoint = isLogin ? 'login' : 'register';
     
     try {
-      const response = await fetch(`http://127.0.0.1:5000/api/v1/users/${endpoint}`, {
+      const response = await fetch(`${API_BASE_URL}/users/${endpoint}`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(formData),
@@ -95,7 +96,7 @@ export const Form = () => {
   const handleGoogleSuccess = async (credentialResponse: any) => {
     const toastId = showToast('loading', 'Iniciando sesión con Google...');
     try {
-      const response = await fetch('http://127.0.0.1:5000/api/v1/users/google-login', {
+      const response = await fetch(`${API_BASE_URL}/users/google-login`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ credential: credentialResponse.credential }),

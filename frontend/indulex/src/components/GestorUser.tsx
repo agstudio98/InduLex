@@ -5,6 +5,7 @@ import { useAuth } from '../context/AuthContext';
 import { useToast } from '../context/ToastContext';
 import { useNavigate } from 'react-router-dom';
 import { AddPaymentModal } from './AddPaymentModal';
+import API_BASE_URL from '../api';
 
 /**
  * GestorUser Component
@@ -69,7 +70,7 @@ export const GestorUser = () => {
 
     const tid = showToast('loading', 'Guardando cambios...');
     try {
-      const response = await fetch(`http://127.0.0.1:5000/api/v1/users/update/${user._id}`, {
+      const response = await fetch(`${API_BASE_URL}/users/update/${user._id}`, {
         method: 'PATCH',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ 
