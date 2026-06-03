@@ -12,16 +12,31 @@ const app = express();
 connectDB();
 
 // 2. Middlewares
-app.use(cors());
+app.use(cors()); // Permite peticiones desde cualquier origen por defecto
 app.use(express.json());
 
-// 3. Routes
+// 3. Health Checks (Mensajes para evitar el "Cannot GET")
+app.get('/', (req, res) => {
+    res.status(200).json({ 
+        status: 'success', 
+        message: '¡La API de Devvia está funcionando perfectamente en la raíz!' 
+    });
+});
+
+app.get('/api', (req, res) => {
+    res.status(200).json({ 
+        status: 'success', 
+        message: '¡Bienvenido a las rutas de la API de Devvia!' 
+    });
+});
+
+// 4. Routes
 app.use('/api', routes);
 
-// 4. Global Error Handler (must be last)
+// 5. Global Error Handler (must be last)
 app.use(errorHandler);
 
-// 5. Start Server
+// 6. Start Server
 const PORT = process.env.PORT || 5000;
 let server;
 if (process.env.NODE_ENV !== 'test') {
@@ -32,7 +47,7 @@ if (process.env.NODE_ENV !== 'test') {
 
 module.exports = app;
 
-// 6. Graceful Shutdown
+// 7. Graceful Shutdown
 process.on('SIGTERM', () => {
     logger.info('SIGTERM signal received: closing HTTP server');
     if (server) {
