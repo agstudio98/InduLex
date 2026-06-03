@@ -12,7 +12,7 @@ i18n
       escapeValue: false, // React ya lo hace seguro por defecto
     },
     backend: {
-      loadPath: '/src/assets/i18n/{{lng}}.json', // Ruta de los archivos json
+      loadPath: '/i18n/{{lng}}.json', // Ruta de los archivos json en public
     }
   });
 
